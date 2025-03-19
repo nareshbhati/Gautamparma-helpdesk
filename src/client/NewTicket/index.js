@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./index.css";
 
 const TicketForm = () => {
+  const navigate = useNavigate();
   const [subject, setSubject] = useState("");
   const [description, setDescription] = useState("");
   const [deskNo, setDeskNo] = useState("");
@@ -25,6 +28,7 @@ const TicketForm = () => {
       floor,
       priority,
       description,
+      status: "Pending",
     };
 
     fetch("http://localhost:5000/tickets", {
@@ -36,7 +40,7 @@ const TicketForm = () => {
     })
       .then((response) => response.json())
       .then((newTicket) => {
-        // setTickets([...tickets, newTicket]);
+        navigate("/my-ticket");
       })
       .catch((error) => console.error("Error adding ticket:", error));
 

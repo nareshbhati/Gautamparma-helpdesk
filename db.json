@@ -6,7 +6,9 @@
       "deskNo": "Test1",
       "floor": "Test1",
       "priority": "Medium",
-      "description": "Test1"
+      "description": "Test1",
+      "status": "Done",
+      "assignedTo": "Sagar"
     },
     {
       "id": "14a1",
@@ -14,39 +16,26 @@
       "deskNo": "Test2",
       "floor": "Test2",
       "priority": "Low",
-      "description": "Test2"
+      "description": "Test2",
+      "status": "Done",
+      "assignedTo": "Sagar"
     },
     {
-      "id": "524b",
-      "subject": "Gautam parmar",
-      "deskNo": "Test",
-      "floor": "123",
-      "priority": "Low",
-      "description": "Test123"
-    },
-    {
-      "id": "5787",
-      "subject": "eng",
-      "deskNo": "56",
-      "floor": "3",
+      "id": "6d94",
+      "subject": "compuetr not working",
+      "deskNo": "11",
+      "floor": "2",
       "priority": "High",
-      "description": "eng"
-    },
+      "description": "no idea",
+      "status": "In Progress",
+      "assignedTo": "gautam"
+    }
+  ],
+  "engineers": [
     {
-      "id": "fe5c",
-      "subject": "software issue",
-      "deskNo": "56",
-      "floor": "5",
-      "priority": "High",
-      "description": "no"
-    },
-    {
-      "id": "705a",
-      "subject": "hardare issue",
-      "deskNo": "56",
-      "floor": "6",
-      "priority": "Low",
-      "description": "no"
+      "id": "21",
+      "empName": "gautam",
+      "role": "Engineer"
     }
   ]
 }

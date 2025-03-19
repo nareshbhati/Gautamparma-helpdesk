@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with Gautam Parmar
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Gautam will Run this command
+
+To run helpdesk portal at local
+
+1. Git clone <git-hub-link>
+2. npm install
+3. npm start
+4. npm run start-node
+
+### `npm start`
 
 ## Available Scripts
 
